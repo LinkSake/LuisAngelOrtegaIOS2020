@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-background" translatesAutoresizingMaskIntoConstraints="NO" id="Sjc-n1-cLs" userLabel="Background">
+                                <rect key="frame" x="-1089" y="-416" width="2592" height="1728"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dx4-m4-jSq" userLabel="Color">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lelei o(≧▽≦)o" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZX-9f-58d">
+                                <rect key="frame" x="67" y="419.5" width="280.5" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hare.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1cr-bn-a9Y" userLabel="Logo">
+                                <rect key="frame" x="87" y="273.5" width="240" height="128"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="NAh-08-vcl"/>
+                                    <constraint firstAttribute="width" constant="240" id="uK5-aV-6DG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JZX-9f-58d" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0ZM-tu-fCz"/>
+                            <constraint firstItem="Sjc-n1-cLs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1A4-VV-Ndl"/>
+                            <constraint firstItem="JZX-9f-58d" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="FIi-fc-lVw"/>
+                            <constraint firstItem="Dx4-m4-jSq" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="Hrt-6S-NRg"/>
+                            <constraint firstItem="1cr-bn-a9Y" firstAttribute="centerX" secondItem="JZX-9f-58d" secondAttribute="centerX" id="Ia9-Gf-zkj"/>
+                            <constraint firstItem="Dx4-m4-jSq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="S3l-3D-WSb"/>
+                            <constraint firstItem="Sjc-n1-cLs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Why-4w-aR7"/>
+                            <constraint firstItem="Sjc-n1-cLs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ggN-be-wzT"/>
+                            <constraint firstItem="JZX-9f-58d" firstAttribute="top" secondItem="1cr-bn-a9Y" secondAttribute="bottom" constant="17.5" id="rc2-me-1KV"/>
+                            <constraint firstItem="Dx4-m4-jSq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tBv-mV-HHl"/>
+                            <constraint firstItem="Sjc-n1-cLs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="w8d-XZ-h7E"/>
+                            <constraint firstAttribute="bottom" secondItem="Dx4-m4-jSq" secondAttribute="bottom" id="xam-Dr-8y6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hare.fill" catalog="system" width="64" height="44"/>
+        <image name="launch-background" width="2592" height="1728"/>
+    </resources>
+</document>
