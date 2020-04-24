@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="shn-9L-5MX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Technology.ttf">
+            <string>Technology-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -24,6 +29,17 @@
                                     <segue destination="z1B-zh-2Nx" kind="show" id="3kR-B5-0np"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzp-WW-Iqi">
+                                <rect key="frame" x="16" y="98" width="382" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="QR">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="W7z-vO-5Gs" kind="show" id="Etz-eB-nzn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -37,6 +53,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="101.78571428571428"/>
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="lAo-eA-0Jf">
+            <objects>
+                <viewController id="shn-9L-5MX" customClass="TimerViewController" customModule="iOS2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NZu-29-fJM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2s-np-fnP">
+                                <rect key="frame" x="65" y="350" width="284" height="196"/>
+                                <fontDescription key="fontDescription" name="Technology-Regular" family="Technology" pointSize="177"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxU-bF-Ecu">
+                                <rect key="frame" x="0.0" y="799" width="207" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="xdl-5e-Zbr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="shn-9L-5MX" eventType="touchUpInside" id="gjN-YT-NVy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOl-wn-nKY">
+                                <rect key="frame" x="207" y="799" width="207" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="Whm-pp-FOP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="shn-9L-5MX" eventType="touchUpInside" id="3nM-zl-gDA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NxU-bF-Ecu" firstAttribute="leading" secondItem="4FC-3j-KQu" secondAttribute="leading" id="2cT-YR-nbg"/>
+                            <constraint firstItem="VOl-wn-nKY" firstAttribute="width" secondItem="NZu-29-fJM" secondAttribute="width" multiplier="0.5" id="47s-rg-DIu"/>
+                            <constraint firstItem="NxU-bF-Ecu" firstAttribute="width" secondItem="NZu-29-fJM" secondAttribute="width" multiplier="0.5" id="5Jb-LW-bAU"/>
+                            <constraint firstItem="NxU-bF-Ecu" firstAttribute="top" secondItem="n2s-np-fnP" secondAttribute="bottom" constant="253" id="MWg-H6-X5r"/>
+                            <constraint firstItem="4FC-3j-KQu" firstAttribute="trailing" secondItem="VOl-wn-nKY" secondAttribute="trailing" id="QLa-tY-Wui"/>
+                            <constraint firstItem="4FC-3j-KQu" firstAttribute="bottom" secondItem="n2s-np-fnP" secondAttribute="bottom" constant="316" id="YYT-ZK-Z0c"/>
+                            <constraint firstItem="n2s-np-fnP" firstAttribute="leading" secondItem="4FC-3j-KQu" secondAttribute="leading" constant="65" id="cbl-nF-b5W"/>
+                            <constraint firstItem="NxU-bF-Ecu" firstAttribute="bottom" secondItem="4FC-3j-KQu" secondAttribute="bottom" id="oCa-aY-ewS"/>
+                            <constraint firstItem="VOl-wn-nKY" firstAttribute="top" secondItem="n2s-np-fnP" secondAttribute="bottom" constant="253" id="uwc-2Q-I8H"/>
+                            <constraint firstItem="n2s-np-fnP" firstAttribute="top" secondItem="4FC-3j-KQu" secondAttribute="top" constant="306" id="xhe-3Q-ZqU"/>
+                            <constraint firstItem="4FC-3j-KQu" firstAttribute="trailing" secondItem="n2s-np-fnP" secondAttribute="trailing" constant="65" id="ySt-hY-Rps"/>
+                            <constraint firstItem="VOl-wn-nKY" firstAttribute="bottom" secondItem="4FC-3j-KQu" secondAttribute="bottom" id="zWA-Zw-WkR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4FC-3j-KQu"/>
+                    </view>
+                    <connections>
+                        <outlet property="countdown" destination="n2s-np-fnP" id="bir-B0-urp"/>
+                        <outlet property="resetButton" destination="VOl-wn-nKY" id="TaB-uv-k51"/>
+                        <outlet property="startButton" destination="NxU-bF-Ecu" id="SaN-DV-Wat"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ko3-hR-hfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002.8985507246377" y="-583.25892857142856"/>
         </scene>
         <!--Temp Converter View Controller-->
         <scene sceneID="bYC-Z3-g0P">
@@ -101,5 +185,81 @@
             </objects>
             <point key="canvasLocation" x="1002.8985507246377" y="96.428571428571431"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="5fx-nf-pcm">
+            <objects>
+                <viewController id="W7z-vO-5Gs" customClass="QRViewController" customModule="iOS2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e8a-Nu-Fn3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zzb-jV-QFd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4oB-cJ-cNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWN-db-yJf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="zoX-Xn-vwk">
+                    <rect key="frame" x="0.0" y="0.0" width="110" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="rvd-Fk-OuW"/>
+                </stackView>
+            </objects>
+            <point key="canvasLocation" x="1049" y="830"/>
+        </scene>
+        <!--Screen Video View Controller-->
+        <scene sceneID="5mr-bG-8Bp">
+            <objects>
+                <viewController storyboardIdentifier="StartVideoViewController" id="HZl-ws-rZm" customClass="ScreenVideoViewController" customModule="iOS2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yR0-to-TQX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpotifyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="bf6-TS-Eo8">
+                                <rect key="frame" x="87" y="44" width="240" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="GMu-mL-2wH"/>
+                                    <constraint firstAttribute="width" constant="240" id="eoq-xo-lpp"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gop-IJ-fgW">
+                                <rect key="frame" x="0.0" y="728" width="207" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="T3H-15-egD"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="LOG IN"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1O-cg-GSw">
+                                <rect key="frame" x="207" y="728" width="207" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="g2B-XW-odZ"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="SIGN UP"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bFi-dm-np1" firstAttribute="bottom" secondItem="gop-IJ-fgW" secondAttribute="bottom" constant="94" id="1hf-7i-KNC"/>
+                            <constraint firstItem="bf6-TS-Eo8" firstAttribute="centerX" secondItem="yR0-to-TQX" secondAttribute="centerX" id="ACh-ky-hSm"/>
+                            <constraint firstItem="gop-IJ-fgW" firstAttribute="leading" secondItem="bFi-dm-np1" secondAttribute="leading" id="J54-3G-e2i"/>
+                            <constraint firstItem="gop-IJ-fgW" firstAttribute="width" secondItem="yR0-to-TQX" secondAttribute="width" multiplier="0.5" id="gnm-a5-b7L"/>
+                            <constraint firstItem="bFi-dm-np1" firstAttribute="bottom" secondItem="N1O-cg-GSw" secondAttribute="bottom" constant="94" id="iaP-os-SuW"/>
+                            <constraint firstItem="N1O-cg-GSw" firstAttribute="trailing" secondItem="bFi-dm-np1" secondAttribute="trailing" id="knd-D3-QEd"/>
+                            <constraint firstItem="bf6-TS-Eo8" firstAttribute="top" secondItem="bFi-dm-np1" secondAttribute="top" id="v9P-SM-B72"/>
+                            <constraint firstItem="N1O-cg-GSw" firstAttribute="width" secondItem="yR0-to-TQX" secondAttribute="width" multiplier="0.5" id="x1v-Bh-NqD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bFi-dm-np1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHr-r3-deQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-597" y="96"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="SpotifyLogo" width="218" height="66"/>
+    </resources>
 </document>

@@ -16,6 +16,13 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Technology-Bold.ttf</string>
+		<string>Technology-BoldItalic.ttf</string>
+		<string>Technology-Italic.ttf</string>
+		<string>Technology.ttf</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

@@ -1,0 +1,6 @@
+framework module Pods_iOS2020 {
+  umbrella header "Pods-iOS2020-umbrella.h"
+
+  export *
+  module * { export * }
+}

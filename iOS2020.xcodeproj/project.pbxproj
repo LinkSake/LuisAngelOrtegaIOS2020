@@ -15,7 +15,20 @@
 		0B07CDCC23E1146100DF1BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B07CDCA23E1146100DF1BA1 /* LaunchScreen.storyboard */; };
 		0B07CDD723E1146100DF1BA1 /* iOS2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B07CDD623E1146100DF1BA1 /* iOS2020Tests.swift */; };
 		0B07CDE223E1146100DF1BA1 /* iOS2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B07CDE123E1146100DF1BA1 /* iOS2020UITests.swift */; };
+		0B31C34C244FBF3900E3BC18 /* ScreenVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31C34B244FBF3900E3BC18 /* ScreenVideoViewController.swift */; };
+		0B31C35F244FC93E00E3BC18 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0B31C35B244FC93E00E3BC18 /* moments.mp4 */; };
+		0B31C360244FC93E00E3BC18 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0B31C35C244FC93E00E3BC18 /* videoplayback.mp4 */; };
+		0B31C361244FC93E00E3BC18 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31C35D244FC93E00E3BC18 /* VideoSplashViewController.swift */; };
+		0B31C362244FC93E00E3BC18 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31C35E244FC93E00E3BC18 /* VideoCutter.swift */; };
 		0B3807FF23EA521600D7E428 /* TempConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3807FE23EA521600D7E428 /* TempConverterViewController.swift */; };
+		0B4C005824526BC00068120F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C005724526BC00068120F /* TimerViewController.swift */; };
+		0B4C005A245277110068120F /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C0059245277110068120F /* endgame.wav */; };
+		0B4C005F245277A70068120F /* Technology-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005B245277A60068120F /* Technology-Bold.ttf */; };
+		0B4C0060245277A70068120F /* Technology-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005C245277A60068120F /* Technology-BoldItalic.ttf */; };
+		0B4C0061245277A70068120F /* Technology.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005D245277A60068120F /* Technology.ttf */; };
+		0B4C0062245277A70068120F /* Technology-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005E245277A70068120F /* Technology-Italic.ttf */; };
+		0B58098C23F39DB000326E10 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58098B23F39DB000326E10 /* QRViewController.swift */; };
+		95CD733F68E1B03B01B102A5 /* Pods_iOS2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB6EF2D473EA0907E18AE8A /* Pods_iOS2020.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +63,22 @@
 		0B07CDDD23E1146100DF1BA1 /* iOS2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B07CDE123E1146100DF1BA1 /* iOS2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS2020UITests.swift; sourceTree = "<group>"; };
 		0B07CDE323E1146100DF1BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B31C34B244FBF3900E3BC18 /* ScreenVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenVideoViewController.swift; sourceTree = "<group>"; };
+		0B31C35B244FC93E00E3BC18 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = moments.mp4; path = ../../SpotifyScreen/moments.mp4; sourceTree = "<group>"; };
+		0B31C35C244FC93E00E3BC18 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = videoplayback.mp4; path = ../../SpotifyScreen/videoplayback.mp4; sourceTree = "<group>"; };
+		0B31C35D244FC93E00E3BC18 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoSplashViewController.swift; path = ../../SpotifyScreen/VideoSplashViewController.swift; sourceTree = "<group>"; };
+		0B31C35E244FC93E00E3BC18 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCutter.swift; path = ../../SpotifyScreen/VideoCutter.swift; sourceTree = "<group>"; };
 		0B3807FE23EA521600D7E428 /* TempConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConverterViewController.swift; sourceTree = "<group>"; };
+		0B4C005724526BC00068120F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		0B4C0059245277110068120F /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = endgame.wav; path = ../../Timer/endgame.wav; sourceTree = "<group>"; };
+		0B4C005B245277A60068120F /* Technology-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Technology-Bold.ttf"; path = "../../Timer/Technology-Bold.ttf"; sourceTree = "<group>"; };
+		0B4C005C245277A60068120F /* Technology-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Technology-BoldItalic.ttf"; path = "../../Timer/Technology-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0B4C005D245277A60068120F /* Technology.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Technology.ttf; path = ../../Timer/Technology.ttf; sourceTree = "<group>"; };
+		0B4C005E245277A70068120F /* Technology-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Technology-Italic.ttf"; path = "../../Timer/Technology-Italic.ttf"; sourceTree = "<group>"; };
+		0B58098B23F39DB000326E10 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		8EB6EF2D473EA0907E18AE8A /* Pods_iOS2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DD2AD3CB01809C9DA558E1 /* Pods-iOS2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2020.release.xcconfig"; path = "Target Support Files/Pods-iOS2020/Pods-iOS2020.release.xcconfig"; sourceTree = "<group>"; };
+		DDF17074C6872ECCEA70119D /* Pods-iOS2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2020.debug.xcconfig"; path = "Target Support Files/Pods-iOS2020/Pods-iOS2020.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CD733F68E1B03B01B102A5 /* Pods_iOS2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,8 @@
 				0B07CDD523E1146100DF1BA1 /* iOS2020Tests */,
 				0B07CDE023E1146100DF1BA1 /* iOS2020UITests */,
 				0B07CDBD23E1146000DF1BA1 /* Products */,
+				D9CB37D55C15F253BEACAC85 /* Pods */,
+				E57396ABC75BCBE617F82A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +132,26 @@
 		0B07CDBE23E1146000DF1BA1 /* iOS2020 */ = {
 			isa = PBXGroup;
 			children = (
+				0B4C0059245277110068120F /* endgame.wav */,
+				0B31C35B244FC93E00E3BC18 /* moments.mp4 */,
+				0B31C35E244FC93E00E3BC18 /* VideoCutter.swift */,
+				0B31C35C244FC93E00E3BC18 /* videoplayback.mp4 */,
+				0B31C35D244FC93E00E3BC18 /* VideoSplashViewController.swift */,
 				0B07CDBF23E1146000DF1BA1 /* AppDelegate.swift */,
 				0B07CDC123E1146000DF1BA1 /* SceneDelegate.swift */,
 				0B07CDC323E1146000DF1BA1 /* MainViewController.swift */,
 				0B07CDC523E1146000DF1BA1 /* Main.storyboard */,
+				0B4C005B245277A60068120F /* Technology-Bold.ttf */,
+				0B4C005C245277A60068120F /* Technology-BoldItalic.ttf */,
+				0B4C005E245277A70068120F /* Technology-Italic.ttf */,
+				0B4C005D245277A60068120F /* Technology.ttf */,
+				0B58098B23F39DB000326E10 /* QRViewController.swift */,
 				0B07CDC823E1146100DF1BA1 /* Assets.xcassets */,
 				0B07CDCA23E1146100DF1BA1 /* LaunchScreen.storyboard */,
 				0B07CDCD23E1146100DF1BA1 /* Info.plist */,
 				0B3807FE23EA521600D7E428 /* TempConverterViewController.swift */,
+				0B31C34B244FBF3900E3BC18 /* ScreenVideoViewController.swift */,
+				0B4C005724526BC00068120F /* TimerViewController.swift */,
 			);
 			path = iOS2020;
 			sourceTree = "<group>";
@@ -131,6 +174,24 @@
 			path = iOS2020UITests;
 			sourceTree = "<group>";
 		};
+		D9CB37D55C15F253BEACAC85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDF17074C6872ECCEA70119D /* Pods-iOS2020.debug.xcconfig */,
+				B7DD2AD3CB01809C9DA558E1 /* Pods-iOS2020.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E57396ABC75BCBE617F82A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6EF2D473EA0907E18AE8A /* Pods_iOS2020.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B07CDE623E1146100DF1BA1 /* Build configuration list for PBXNativeTarget "iOS2020" */;
 			buildPhases = (
+				34BFFB8B125ED25BB6A7B043 /* [CP] Check Pods Manifest.lock */,
 				0B07CDB823E1146000DF1BA1 /* Sources */,
 				0B07CDB923E1146000DF1BA1 /* Frameworks */,
 				0B07CDBA23E1146000DF1BA1 /* Resources */,
+				1150D45D31231E7EFC3C96C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +298,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4C005A245277110068120F /* endgame.wav in Resources */,
 				0B07CDCC23E1146100DF1BA1 /* LaunchScreen.storyboard in Resources */,
+				0B31C35F244FC93E00E3BC18 /* moments.mp4 in Resources */,
+				0B4C005F245277A70068120F /* Technology-Bold.ttf in Resources */,
+				0B4C0062245277A70068120F /* Technology-Italic.ttf in Resources */,
 				0B07CDC923E1146100DF1BA1 /* Assets.xcassets in Resources */,
+				0B4C0061245277A70068120F /* Technology.ttf in Resources */,
+				0B4C0060245277A70068120F /* Technology-BoldItalic.ttf in Resources */,
 				0B07CDC723E1146000DF1BA1 /* Main.storyboard in Resources */,
+				0B31C360244FC93E00E3BC18 /* videoplayback.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +327,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1150D45D31231E7EFC3C96C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS2020/Pods-iOS2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS2020/Pods-iOS2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS2020/Pods-iOS2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34BFFB8B125ED25BB6A7B043 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B07CDB823E1146000DF1BA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B31C362244FC93E00E3BC18 /* VideoCutter.swift in Sources */,
+				0B4C005824526BC00068120F /* TimerViewController.swift in Sources */,
 				0B3807FF23EA521600D7E428 /* TempConverterViewController.swift in Sources */,
+				0B58098C23F39DB000326E10 /* QRViewController.swift in Sources */,
 				0B07CDC423E1146000DF1BA1 /* MainViewController.swift in Sources */,
+				0B31C361244FC93E00E3BC18 /* VideoSplashViewController.swift in Sources */,
 				0B07CDC023E1146000DF1BA1 /* AppDelegate.swift in Sources */,
+				0B31C34C244FBF3900E3BC18 /* ScreenVideoViewController.swift in Sources */,
 				0B07CDC223E1146000DF1BA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +553,7 @@
 		};
 		0B07CDE723E1146100DF1BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF17074C6872ECCEA70119D /* Pods-iOS2020.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +571,7 @@
 		};
 		0B07CDE823E1146100DF1BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DD2AD3CB01809C9DA558E1 /* Pods-iOS2020.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
