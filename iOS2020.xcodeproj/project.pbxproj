@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,8 @@
 		0B4C0061245277A70068120F /* Technology.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005D245277A60068120F /* Technology.ttf */; };
 		0B4C0062245277A70068120F /* Technology-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B4C005E245277A70068120F /* Technology-Italic.ttf */; };
 		0B58098C23F39DB000326E10 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B58098B23F39DB000326E10 /* QRViewController.swift */; };
+		0BD81C492458F51400422023 /* PITouchIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD81C482458F51400422023 /* PITouchIDManager.swift */; };
+		0BD81C4B2458F54100422023 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD81C4A2458F54100422023 /* AuthenticationViewController.swift */; };
 		95CD733F68E1B03B01B102A5 /* Pods_iOS2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB6EF2D473EA0907E18AE8A /* Pods_iOS2020.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		0B4C005D245277A60068120F /* Technology.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Technology.ttf; path = ../../Timer/Technology.ttf; sourceTree = "<group>"; };
 		0B4C005E245277A70068120F /* Technology-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Technology-Italic.ttf"; path = "../../Timer/Technology-Italic.ttf"; sourceTree = "<group>"; };
 		0B58098B23F39DB000326E10 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		0BD81C482458F51400422023 /* PITouchIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PITouchIDManager.swift; path = ../../TouchID/PITouchIDManager.swift; sourceTree = "<group>"; };
+		0BD81C4A2458F54100422023 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		8EB6EF2D473EA0907E18AE8A /* Pods_iOS2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DD2AD3CB01809C9DA558E1 /* Pods-iOS2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2020.release.xcconfig"; path = "Target Support Files/Pods-iOS2020/Pods-iOS2020.release.xcconfig"; sourceTree = "<group>"; };
 		DDF17074C6872ECCEA70119D /* Pods-iOS2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2020.debug.xcconfig"; path = "Target Support Files/Pods-iOS2020/Pods-iOS2020.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 		0B07CDBE23E1146000DF1BA1 /* iOS2020 */ = {
 			isa = PBXGroup;
 			children = (
+				0BD81C482458F51400422023 /* PITouchIDManager.swift */,
 				0B4C0059245277110068120F /* endgame.wav */,
 				0B31C35B244FC93E00E3BC18 /* moments.mp4 */,
 				0B31C35E244FC93E00E3BC18 /* VideoCutter.swift */,
@@ -152,6 +157,7 @@
 				0B3807FE23EA521600D7E428 /* TempConverterViewController.swift */,
 				0B31C34B244FBF3900E3BC18 /* ScreenVideoViewController.swift */,
 				0B4C005724526BC00068120F /* TimerViewController.swift */,
+				0BD81C4A2458F54100422023 /* AuthenticationViewController.swift */,
 			);
 			path = iOS2020;
 			sourceTree = "<group>";
@@ -180,7 +186,6 @@
 				DDF17074C6872ECCEA70119D /* Pods-iOS2020.debug.xcconfig */,
 				B7DD2AD3CB01809C9DA558E1 /* Pods-iOS2020.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -375,10 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B31C362244FC93E00E3BC18 /* VideoCutter.swift in Sources */,
+				0BD81C492458F51400422023 /* PITouchIDManager.swift in Sources */,
 				0B4C005824526BC00068120F /* TimerViewController.swift in Sources */,
 				0B3807FF23EA521600D7E428 /* TempConverterViewController.swift in Sources */,
 				0B58098C23F39DB000326E10 /* QRViewController.swift in Sources */,
 				0B07CDC423E1146000DF1BA1 /* MainViewController.swift in Sources */,
+				0BD81C4B2458F54100422023 /* AuthenticationViewController.swift in Sources */,
 				0B31C361244FC93E00E3BC18 /* VideoSplashViewController.swift in Sources */,
 				0B07CDC023E1146000DF1BA1 /* AppDelegate.swift in Sources */,
 				0B31C34C244FBF3900E3BC18 /* ScreenVideoViewController.swift in Sources */,

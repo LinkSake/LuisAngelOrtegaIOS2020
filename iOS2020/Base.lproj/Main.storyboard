@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="shn-9L-5MX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lck-rU-qwr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
@@ -185,6 +185,21 @@
             </objects>
             <point key="canvasLocation" x="1002.8985507246377" y="96.428571428571431"/>
         </scene>
+        <!--Authentication View Controller-->
+        <scene sceneID="Hoh-1M-xQ3">
+            <objects>
+                <viewController id="Lck-rU-qwr" customClass="AuthenticationViewController" customModule="iOS2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cOY-ZK-SDB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dLe-6v-Fhm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rra-w6-7hM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="777"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="5fx-nf-pcm">
             <objects>
@@ -204,7 +219,7 @@
                     <viewLayoutGuide key="safeArea" id="rvd-Fk-OuW"/>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="1049" y="830"/>
+            <point key="canvasLocation" x="1871" y="102"/>
         </scene>
         <!--Screen Video View Controller-->
         <scene sceneID="5mr-bG-8Bp">
@@ -256,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHr-r3-deQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-597" y="96"/>
+            <point key="canvasLocation" x="1872" y="-583"/>
         </scene>
     </scenes>
     <resources>
